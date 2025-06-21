@@ -28,6 +28,10 @@
     font-size: 16px;
     color:rgb(103, 103, 104) ;
 }
+.rate{
+    width: 20px;
+    height: 20px;
+}
 .detail button{
     width: 150px;
     padding: 8px 10px;

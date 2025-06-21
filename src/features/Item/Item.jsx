@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import styles from './Item.module.css'
-import Rating from '../Navbar/Rating/Rating'
+import Rating from '../Rating/Rating'
 
 export default function Item({ item }) {
     return (
