@@ -1,0 +1,20 @@
+.purse{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(227, 227, 242);
+    color: rgb(27, 26, 26);
+    padding: 20px 30px;
+}
+.purse h3{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}

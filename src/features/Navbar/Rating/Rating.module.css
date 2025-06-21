@@ -1,0 +1,10 @@
+.rate{
+    display: flex;
+    gap: 2px;
+}
+.rate img {
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 0;
+}

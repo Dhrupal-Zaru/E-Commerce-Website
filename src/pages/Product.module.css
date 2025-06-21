@@ -1,0 +1,51 @@
+.product{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    padding: 40px 30px;
+    margin-top: 20px;
+}
+
+.product img{
+    width: 500px;         
+    height: 400px; 
+    margin-left: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 30px;
+}
+.detail h3{
+    font-size: 24px;
+    font-weight: 600;
+    /* padding-top: 20px; */
+}
+.detail p{
+    font-size: 16px;
+    color:rgb(103, 103, 104) ;
+}
+.detail button{
+    width: 150px;
+    padding: 8px 10px;
+    background-color:rgb(18, 80, 162);
+    color: rgb(241, 239, 239);
+    border: none;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.rate{
+    display: flex;
+    gap: 2px;
+}
+.rate img {
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 0;
+}

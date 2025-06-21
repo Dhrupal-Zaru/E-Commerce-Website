@@ -1,0 +1,60 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 30px;
+}
+
+.cart h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px;
+}
+
+.empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: rgb(81, 80, 80);
+
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr 1fr;
+    gap: 16px;
+    padding: 0 30px;
+    align-items: center;
+    /* justify-content: center; */
+}
+.table p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.separator{
+    border: none;
+    border-bottom: 2px solid rgba(43, 42, 42, 0.448);
+    /* width: 100%;   */
+    padding: 0 30px;
+}
+
+.clear{
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 4px 6px;
+    width: 100px;
+    border: none;
+    background-color: rgb(50, 50, 159);
+    color: rgb(241, 241, 243);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

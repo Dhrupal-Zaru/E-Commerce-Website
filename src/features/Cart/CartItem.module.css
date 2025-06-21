@@ -1,0 +1,51 @@
+.cartItem{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr 1fr;
+    gap: 16px;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.cartItem p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 8px;
+}
+.cartItem img{
+    height: 100px;
+    width: 100px;
+}
+
+.qty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qty button{
+    font-size: 18px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(50, 50, 159);
+    color: rgb(241, 241, 243);
+    cursor: pointer;
+}
+.btnDec{
+    padding: 1.8px 8px;
+}
+
+.delete{
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 4px 6px;
+    width: 100px;
+    border: none;
+    background-color: rgb(50, 50, 159);
+    color: rgb(241, 241, 243);
+    cursor: pointer;
+}
+.separator{
+    border: none;
+    border-bottom: 1px solid rgba(43, 42, 42, 0.448);
+    /* width: 100%;   */
+    padding: 0 30px;
+}

@@ -1,0 +1,33 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(241, 242, 247);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+.item:hover{
+    transform: scale(1.01);
+}
+
+.item img{
+    height: 300px;
+    width:100%;
+}
+
+.item h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 20px 8px 20px;
+}
+.rating{
+    margin: 0 20px 12px;
+}
+.item p{
+    font-size: 16px;
+    padding: 0 20px 20px;
+    color:rgb(116, 116, 117) ;
+}
+.linkReset{
+    text-decoration: none;
+    color: inherit;
+}

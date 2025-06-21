@@ -1,0 +1,34 @@
+.shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(67, 64, 64);
+}
+
+.shop h1{
+    font-size: 45px;
+    color:  rgb(50, 50, 159);
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.shop h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.shop p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 900px;
+    padding:10px 50px 20px;
+}
+.shop button{
+    padding: 10px 18px;
+    background-color:rgb(50, 50, 159);
+    color: rgb(241, 239, 239);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 20px;
+}
