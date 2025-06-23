@@ -6,7 +6,12 @@
     color: rgb(27, 26, 26);
     padding: 20px 30px;
 }
-.purse h3{
+.header {
+    display: flex;
+    align-items: center;
+    gap: 35rem;
+}
+.header h3{
     font-size: 25px;
     font-weight: 700;
     text-align: center;

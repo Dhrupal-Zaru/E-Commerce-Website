@@ -5,6 +5,7 @@ import styles from './Product.module.css'
 import { useDispatch } from 'react-redux';
 import { addItem } from '../features/Cart/cartSlice';
 import Rating from '../features/Rating/Rating';
+import BackButton from '../ui/BackButton';
 
 export default function Product() {
     const { productId } = useParams();
@@ -17,14 +18,17 @@ export default function Product() {
 
     return (
         <div className={styles.product}>
-            <img src={product.image} alt='purse image' />
-            <div className={styles.detail}>
-                <h3>{product.name}</h3>
-                <div className={styles.rate}>
-                    <Rating />
+            <BackButton/>
+            <div className={styles.item}>
+                <img src={product.image} alt='purse image' />
+                <div className={styles.detail}>
+                    <h3>{product.name}</h3>
+                    <div className={styles.rate}>
+                        <Rating />
+                    </div>
+                    <p>$ {product.price}</p>
+                    <button onClick={handleAddItem}>Add to Cart</button>
                 </div>
-                <p>$ {product.price}</p>
-                <button onClick={handleAddItem}>Add to Cart</button>
             </div>
         </div>
     )

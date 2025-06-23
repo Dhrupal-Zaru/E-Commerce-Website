@@ -1,0 +1,10 @@
+.back{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    cursor: pointer;
+    color:  rgb(50, 50, 159);
+    background: none;
+    border: none;
+    font-size: 0.9rem;
+}
